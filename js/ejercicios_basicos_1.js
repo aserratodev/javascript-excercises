@@ -17,7 +17,7 @@ miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo.
 */
 
 //1) Solución
-let frase = "Hola Mundo";
+let frase = "Hola Mundo!!";
 console.log(`El enunciado de la variable, tiene ` + frase.length + ` caracteres`);
 
 frase.length = 10;
