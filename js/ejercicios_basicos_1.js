@@ -18,6 +18,18 @@ miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo.
 
 //1) Solución
 let frase = "Hola Mundo";
-console.log(`El enunciado de la variable frase, tiene ` + frase.length + ` caracteres`);
+console.log(frase.length);
 
+
+//1) Solución 1.1
+let funcion = "Hola Mundo";
+console.log(`El enunciado de la variable funcion, tiene ` + funcion.length + ` caracteres`);
+
+//========================================================================================================================================
+
+//2) Solución
+const texto = "Hola Mundo";
+let mensaje;
+mensaje = texto.slice(0,4);
+console.log(mensaje);
 
