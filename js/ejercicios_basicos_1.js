@@ -25,6 +25,29 @@ console.log(frase.length);
 let funcion = "Hola Mundo";
 console.log(`El enunciado de la variable funcion, tiene ` + funcion.length + ` caracteres`);
 
+//Solución Definitiva:
+/*
+function contarCaracteres(cadena = "") {
+    if (!cadena) {
+        console.warn("No ingresaste ninguna cadena.");
+    }else{
+        console.info(`La cadena "${cadena}" tiene ${cadena.length} caracteres.`);
+    }
+}
+
+contarCaracteres();
+contarCaracteres("Hola Mundo");
+*/
+
+//Función Expresada:
+const contarCaracteres = (cadena = "") => 
+    (!cadena) 
+    ? console.warn("No ingresaste ninguna cadena")
+    :console.info(`La cadena "${cadena}" tiene ${cadena.length} caracteres`);
+
+contarCaracteres();
+contarCaracteres("Hola Mundo");
+
 //========================================================================================================================================
 
 //2) Solución
@@ -32,4 +55,9 @@ const texto = "Hola Mundo";
 let mensaje;
 mensaje = texto.slice(0,4);
 console.log(mensaje);
+
+//========================================================================================================================================
+
+//3) Solución
+let saludo = "Hola que tal";
 
